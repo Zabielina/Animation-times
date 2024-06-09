@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    text-align: center;
+    
+}
+
+
+#time {
+color: #f8f3f3;
+margin-top: 16vw;
+font-weight: bold;
+font-size: 15vh;
+animation: pulse 1.7s infinite;
+
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+      background-image: linear-gradient(45deg, red, blue);
+    }
+    40% {
+      transform: scale(.8);
+      background-image: linear-gradient(45deg, blue, green);
+    }
+    80% {
+      transform: scale(1);
+      background-image: linear-gradient(45deg, green, red);
+    }
+  }
+  
+  
